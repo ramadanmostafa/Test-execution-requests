@@ -1,0 +1,70 @@
+.container-fluid {
+  margin-top: 50px;
+  min-height: calc(100vh - 250px);
+}
+
+.bg-blue {
+  background-color: #003d8f;
+  height: 60px;
+  padding-top: 0;
+}
+
+input[type=submit], a.btn {
+  color: #fff;
+  background: #003d8f;
+  border-color: #003d8f;
+}
+
+input[type=submit] {
+  width: 100%;
+}
+
+input[type=submit]:hover, a.btn:hover {
+  background: #0674B2;
+  border-color: #0674B2;
+}
+
+a.btn {
+  width: 100px;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 10px 15px 5px 15px;
+  margin-bottom: 30px;
+}
+
+fieldset legend {
+  font-size: 1.1rem;
+  width: inherit;
+  padding: 0 10px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+}
+
+tr.running {
+    background-color: #fff !important;
+}
+
+tr.succeed {
+    background-color: #22eaaa !important;
+}
+
+tr.failed {
+    background-color: #f67280 !important;
+}
+
+table th {
+  border: 0 !important;
+}
+
+.has-error-message{
+  border-color: #f67280 !important;
+}
+.error-message{
+  color: #f67280 !important;
+}
